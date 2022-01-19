@@ -1,2 +1,1 @@
 # TgBot
-,jn,=d
