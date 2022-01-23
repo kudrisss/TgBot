@@ -1,6 +1,6 @@
 import collections
 
-
+# первый способ
 phrase = "Python is the best language ever"
 abv = ""
 for i in phrase:
@@ -8,5 +8,6 @@ for i in phrase:
         print(f"{i}: {phrase.count(i)}")
         abv += i
 
-results = collections.Counter(phrase) # нашел через "import collections"
+# второй способ через "import collections"
+results = collections.Counter(phrase)
 print(results)
