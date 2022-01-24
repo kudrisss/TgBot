@@ -1,6 +1,7 @@
 import collections
 
-# первый способ
+# подсчет всех букв
+
 phrase = "Python is the best language ever"
 abv = ""
 for i in phrase:
